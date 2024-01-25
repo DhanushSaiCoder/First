@@ -1,0 +1,112 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0f080f;
+    color: #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+
+
+}
+h1{
+  color: white;
+
+
+}
+.buttons-container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    height:30vh;
+    margin-left:20%;
+
+    padding:10px 5px;
+}
+.button{
+    width:40%;
+    height:20%;
+    font-family: 'Poppins', sans-serif;
+    margin:5px;
+    font-size: 12px;
+    background-color: yellow;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    transition: .8s;
+    cursor: pointer;
+
+}
+.button:disabled{
+    background-color: grey;
+    color:white;
+    border-color: black;
+  cursor: not-allowed;
+
+}
+
+
+#wicket{
+    width: 85%;
+    background-color: orangered;
+    border-color: red;
+    color: yellow;
+    transition: .8s;
+    cursor: pointer;
+
+}
+#wicket:disabled {
+    cursor: not-allowed;
+
+    background-color: grey;
+    color: white;
+    border-color: black;
+    cursor: pointer;
+
+}
+marquee{
+    font-size: 10px;
+}
+#reset{
+    width:30%;
+    height:20%;
+    font-family: 'Poppins', sans-serif;
+    margin:20px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: .8s;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+p{
+    color:lawngreen;
+}
+body{
+    background: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.calculator{
+    border: 4px solid greenyellow;
+    padding: 10px 10px;
+    border-radius: 30px;
+    background-color: rgba(0, 190, 0, .2);
+
+}
+#over-counter{
+    color:white;
+}
+#score-div{
+  width:100%;
+  
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transition:2s;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+        .oversInputContainer{
+    width:100vw;
+    
+    height:50vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.oversInput{
+    border:1px solid white;
+    width: 60%;
+    background-color: rgba(0, 190, 0, .2);
+    border: 4px solid greenyellow;
+    border-radius: 20px;
+    height:50%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+.oversInput input{
+    margin-bottom: 10px;
+    margin-top: 40px;
+    height:35px;
+    padding:5px 10px;
+    border-radius: 10px;
+    background-color: yellow;
+    color:black;
+    border: 2px solid greenyellow;
+    width:70%;
+}
+.oversInput button {
+    height: 35px;
+   
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: orangered;
+    border: 2px solid red;
+    color: yellow;
+    width: 70%;
+}
+    </style>
+</head>
+
+<body>
+    <div class="oversInputContainer">
+    
+    
+        <div class="oversInput">
+            <h4>Enter Number of Overs:</h4>
+            <input placeholder="Enter here..." type="number">
+            <button onclick="takeOvers()">Continue</button>
+        </div>
+    </div>
+</body>
+
+</html>
